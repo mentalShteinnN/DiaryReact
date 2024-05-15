@@ -1,0 +1,25 @@
+
+.new-post-form {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    font-size: 24px;
+
+    @media (max-width: 1000px) {
+        flex-direction: column;
+    }
+
+    &__button {
+        font-size: 24px !important;
+
+        @media (max-width: 1000px) {
+            font-size: 16px !important;
+        }
+
+    }
+
+    .textarea {
+        width: 100%;
+    }
+
+}

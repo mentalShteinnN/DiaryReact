@@ -1,0 +1,19 @@
+
+.button {
+    padding: 10px 16px;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: rgba(33, 108, 255, 1);
+    color: #fff;
+    cursor: pointer;
+    transition: all ease .6s;
+
+    &:hover {
+        opacity: .8;
+    }
+
+    &.pink {
+        background-color: rgba(255, 33, 139, 1);
+    }
+
+}

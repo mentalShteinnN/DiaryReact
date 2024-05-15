@@ -1,0 +1,1 @@
+export { default as postsSlice } from './postsSlice';
